@@ -8,7 +8,7 @@
 * [Garbage Collector](/chapter9/92-garbage-collector-d29c-b2dd.md) - Java 가상머신 기반의 Garbage Collector에 대한 설정방법
 * Compressed storage - Property에 대한 Compressed storage 설정방법
 * Linux 파일시스템 튜닝 - Linux 파일 시스템에 대한 설정방법
-* Disks, RAM 및 다른 팁 - Disk, RAM 및 다른 팁
+* Disk, RAM 및 다른 팁 - Disk, RAM 및 다른 팁
 
 
 
