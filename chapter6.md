@@ -5,7 +5,7 @@
 이 챕터에서는 다음을 다룰 것 입니다.
 
 * [백업 소개](/chapter6/chapter6_1.md)
-  * 백업 활성화
+  * [백업 활성화](/chapter6/chapter6_1.md#chapter611)
   * 저장소 고려사항
   * 메모리 고려사항
 * [백업 수행](/chapter6/chapter6_2.md)
