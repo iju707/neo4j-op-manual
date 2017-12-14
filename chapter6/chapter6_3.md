@@ -4,7 +4,7 @@
 >
 > 이번 섹션에서는 Neo4j 데이터베이스의 백업 복구를 수행하는 방법에 대하여 알아보겠습니다.
 
-## 6.3.1 복구 명령
+## 6.3.1 복구 명령 {#chapter631}
 
 Neo4j 데이터베이스는 `neo4j-admin`의 `restore` 명령을 통해 복구할 수 있습니다.
 
@@ -22,7 +22,7 @@ neo4j-admin restore --from=<backup-directory> [--database=<name>] [--force[=<tru
 | --database | graph.db | 데이터베이스 이름 |
 | --force | false | 기존 데이터베이스 대체 여부 |
 
-## 6.3.2 단일 데이터베이스 환경에서의 복구
+## 6.3.2 단일 데이터베이스 환경에서의 복구 {#chapter632}
 
 > 예제 6.3 단일 데이터베이스 복구
 >
@@ -34,7 +34,7 @@ neo4j-admin restore --from=<backup-directory> [--database=<name>] [--force[=<tru
 > neo4j-home> bin/neo4j start
 > ```
 
-## 6.3.3 Causal Cluster 환경에서의 복구
+## 6.3.3 Causal Cluster 환경에서의 복구 {#chapter633}
 
 Causal Cluster 환경에서 복구할 때는 다음 절차를 따릅니다.
 
@@ -43,7 +43,7 @@ Causal Cluster 환경에서 복구할 때는 다음 절차를 따릅니다.
 3. 만약 새로운 하드웨어에서 복구를 진행할 경우, `neo4j.conf`에 있는 Causal Clustering 설정을 확인해야합니다. `causal_clustering.initial_discovery_members`에 복구를 진행할 서버가 반영되어있는지 확인합니다. `causal_clustering.expected_core_cluster_size`에 새로운 설정에 맞는 서버 개수가 반영되어있는지 확인합니다.
 4. 데이터베이스 인스턴스를 시작합니다.
 
-## 6.3.4 HA Cluster 환경에서의 복구
+## 6.3.4 HA Cluster 환경에서의 복구 {#chapter634}
 
 HA Cluster 환경에서 복구할 때는 다음 절차를 따릅니다.
 
