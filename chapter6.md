@@ -12,10 +12,10 @@
   * [백업 명령](/chapter6/chapter6_2.md#chapter621)
   * [증분 백업](/chapter6/chapter6_2.md#chapter622)
 * [백업 복](/chapter6/chapter6_3.md)구
-  * 복구 명령
-  * 단일 데이터베이스 환경에서의 복구
-  * Causal Cluster 환경에서의 복구
-  * HA Cluster 환경에서의 복구
+  * [복구 명령](/chapter6/chapter6_3.md#chapter631)
+  * [단일 데이터베이스 환경에서의 복구](/chapter6/chapter6_3.md#chapter632)
+  * [Causal Cluster 환경에서의 복구](/chapter6/chapter6_3.md#chapter633)
+  * [HA Cluster 환경에서의 복구](/chapter6/chapter6_3.md#chapter634)
 
 
 
