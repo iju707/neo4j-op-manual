@@ -33,7 +33,7 @@ neo4j-admin backup --backup-dir=<backup-path> --name=<graph.db-backup>
 | --from | localhost:6362 | Neo4j의 Host, Port |
 | --fallback-to-full | true | 만약 증분백업이 실패할 경우에는 &lt;name&gt;.err.&lt;N&gt;의 경로로 이동하고 전체백업을 수행합니다. |
 | --pagecache | 8M | 백업처리에 사용할 Page Cache 사이즈 |
-| --timeout | 20m | `\<time\>[ms\|s\|m\|h]` 형식의 타입아웃 시간\(기본값은 초\). 이 항목은 일반적으로 Debug 옵션이며, Neo4j Professional Service에서 사용하라 할 경우에만 사용하시면 됩니다. |
+| --timeout | 20m | &lt;time&gt;[ms&vert;s&vert;m&vert;h] 형식의 타입아웃 시간\(기본값은 초\). 이 항목은 일반적으로 Debug 옵션이며, Neo4j Professional Service에서 사용하라 할 경우에만 사용하시면 됩니다. |
 | --check-consistency | true | 일관성검사 수행여부 |
 | --additional-config |  | 추가적인 설정정보를 위한 파일. 이 항목은 더이상 사용하지 않습니다. |
 | --cc-graph | true | 노드, 관계, 속성, 타입, 토큰 간의 일관성검사 수행여부 |
