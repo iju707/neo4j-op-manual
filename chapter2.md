@@ -6,8 +6,8 @@ Neo4j는 Linux, Windows, Mac OS 환경에서 실행할 수 있습니다. Windows
 
 이번 주제는 다음과 같습니다.
 
-* 시스템 요구사항 - Neo4j를 운영환경에 적용하기 위한 시스템 요구사항
-* Linux - Linux 환경에서의 설치
+* [시스템 요구사항](/chapter2/chapter2_1.md) - Neo4j를 운영환경에 적용하기 위한 시스템 요구사항
+* [Linux](/chapter2/chapter2_2.md) - Linux 환경에서의 설치
 * Mac OS - Mac OS 환경에서의 설치
 * Windows - Windows 환경에서의 설치
 * Docker - Docker 환경에서의 설치
