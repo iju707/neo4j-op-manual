@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [2. 설치](chapter2.md)
+  * [2.1 시스템 요구사항](chapter2/chapter2_1.md)
 * [6. 백업](/chapter6.md)
   * [6.1 백업 소개](chapter6/chapter6_1.md)
   * [6.2 백업 수행](chapter6/chapter6_2.md)
