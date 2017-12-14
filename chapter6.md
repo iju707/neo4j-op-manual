@@ -9,8 +9,8 @@
   * [저장소 고려사항](/chapter6/chapter6_1.md#chapter613)
   * [메모리 고려사항](/chapter6/chapter6_1.md#chapter614)
 * [백업 수행](/chapter6/chapter6_2.md)
-  * 백업 명령
-  * 증분 백업
+  * [백업 명령](/chapter6/chapter6_2.md#chapter621)
+  * [증분 백업](/chapter6/chapter6_2.md#chapter622)
 * [백업 복](/chapter6/chapter6_3.md)구
   * 복구 명령
   * 단일 인스턴스 환경에서의 복구
