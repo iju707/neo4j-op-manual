@@ -58,11 +58,11 @@ Neo4j는 실행하기 위하여 Java Virtual Machine\(JVM\)이 필요합니다. 
 
 ### Java
 
-OpenJDK 8 \(Zulu OpenJDK 또는 Debian Distribution\)
+OpenJDK 8 \([Zulu OpenJDK](https://www.azul.com/downloads/zulu/) 또는 [Debian Distribution](http://openjdk.java.net/)\)
 
-Oracle Java 8
+[Oracle Java 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
-IBM Java 8
+[IBM Java 8](http://www.ibm.com/developerworks/java/jdk/)
 
 ### 운영체제
 
