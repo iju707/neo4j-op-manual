@@ -11,7 +11,9 @@ Debian에서 Neo4j를 설치하기 위해서는 다음을 확인해야 합니다
 
 ### 사전요구사항 \(Ubuntu 14.04와 Debian 8에 한정\)
 
+Neo4j 3.3은 Java 8 버전의 런타임을 요구합니다. Java 8은 Ubuntu 14.04 LTS 버전 또는 Debian 8 \(jessie\) 버전에는 포함되어있지 않기 때문에 Neo4j 3.3을 설치 또는 업그레이드 하기 위해서는 수동으로 설치해야 합니다. Debian 사용자는 일반적으로 [Backports](https://packages.debian.org/jessie-backports/openjdk-8-jdk)에 있는 OpenJDK 8 버전을 설치합니다.
 
+Debian 8에서 Java 8 설치
 
-
+`/etc/apt/sources.list.d/` 경로에 `deb http://httpredir.debian.org/debian jessie-backports main`이라는 정보를 가지는 `.list` 확장자로 끝나는 파일을 생성합니다. 그 후 `apt-get update` 명령을 실행합니다.
 
