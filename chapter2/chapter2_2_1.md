@@ -114,5 +114,11 @@ Neo4j의 Debian/Ubuntu 설치버전을 업그레이드하려면 3단계 절차�
 
 만약 2.3 버전에서 설정파일을 수정하였다면, 제공되는 설정 통합 도구를 활용하여야 합니다. 두개의 파라미터가 필요한데, 통합할 설정파일이 보관된 conf의 대상과 목적 경로값입니다. Debian 패키지의 파일시스템 구성에 맞게 두가지 모두 제공되어야 합니다.
 
+Debian의 Neo4j에 관련된 파일은 `neo4j` 사용자와 `adm` 그룹에 속해있기 때문에 `sudo` 명령을 사용하여 권한을 변경한 뒤 실행해야 합니다.
+
+```
+sudo -u neo4j -g adm java -jar /usr/share/neo4j/bin/tools/2.x-config-migrator.jar /var/lib/neo4j /var/lib/neo4j
+```
+
 
 
