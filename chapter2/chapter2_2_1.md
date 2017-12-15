@@ -89,3 +89,14 @@ Neo4j Enterprise Edition을 설치할 때 라이센스 동의 확인이 표시�
 
 저장된 답변을 지우고 동의절차를 설치 단계에 표시하려면 `debconf-communicate` 명령을 사용하여 답변을 삭제하시면 됩니다.
 
+### 상호작용없는 Neo4j Enterprise Edition 설치
+
+Neo4j Enterprise Edition에서 라이센스 동의는 사용자의 입력을 대기하게 됩니다. 만약 Neo4j Enterprise Edition설치때 사용자입력을 제외시키려면, 라이센스를 읽고 동의한다는 정보를 `debconf-set-selections`를 활용하여 지정해야놔야 합니다.
+
+```
+echo "neo4j-enterprise neo4j/question select I ACCEPT" | sudo debconf-set-selections
+echo "neo4j-enterprise neo4j/license note" | sudo debconf-set-selections
+```
+
+
+
